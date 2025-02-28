@@ -61,8 +61,8 @@
 
 .notificationModal {
   position: fixed;
-  top: 10%;
-  left: 50%;
+  top: 12%;
+  left: 52%;
   transform: translateX(-50%);
   width: 500px;
   background: black;

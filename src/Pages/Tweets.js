@@ -4,11 +4,11 @@ import { dummyTweets } from "../static/dummyData";
 // ! 위 코드는 수정하지 않습니다.
 
 // TODO - import문을 이용하여 Footer 컴포넌트를 불러오세요.
-import Footer from "../Footer";
-import { Counter } from "../Counter";
-import { Tabs } from "../Tabs";
-import { InputForm } from "../InputForm";
-import { TweetActions } from "../TweetActions";
+import Footer from "../components/Footer";
+import { Counter } from "../components/Counter";
+import { Tabs } from "../components/Tabs";
+import { InputForm } from "../components/InputForm";
+import { TweetActions } from "../components/TweetActions";
 import "../styles/feed.css";
 
 const tabs = [

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles/tabs.css";
+import "../styles/tabs.css";
 
 export const Tabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState("tab1");

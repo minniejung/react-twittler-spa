@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineChartBar } from "react-icons/hi";
 import { FiShare } from "react-icons/fi";
-import "./styles/feed.css";
+import "../styles/feed.css";
 
 export const TweetActions = () => {
   const getRandomCount = (min, max) =>

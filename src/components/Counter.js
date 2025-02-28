@@ -1,5 +1,5 @@
-import { dummyTweets } from "./static/dummyData";
-import "./styles/feed.css";
+import { dummyTweets } from "../static/dummyData";
+import "../styles/feed.css";
 
 export const Counter = () => {
   return (

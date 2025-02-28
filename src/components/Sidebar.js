@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // TODO - import문을 이용하여 react-router-dom 라이브러리의 Link 컴포넌트를 불러옵니다.
 import { Link } from "react-router-dom";
-import XLogo from "./assets/x-logo.svg";
+import XLogo from "../assets/x-logo.svg";
 import {
   FaSearch,
   FaBolt,
@@ -14,7 +14,8 @@ import {
 } from "react-icons/fa";
 import { HiOutlineBriefcase, HiOutlineUsers } from "react-icons/hi";
 
-import "./styles/sidebar.css";
+import "../styles/sidebar.css";
+import { dummyNotice } from "../static/dummyData";
 
 const Sidebar = () => {
   const [showNotifications, setShowNotifications] = useState(false);
@@ -53,7 +54,7 @@ const Sidebar = () => {
         </div>
       </section>
 
-      {/* {showNotifications && (
+      {showNotifications && (
         <>
           <div
             className="notificationOverlay"
@@ -84,7 +85,7 @@ const Sidebar = () => {
             </ul>
           </div>
         </>
-      )} */}
+      )}
     </>
   );
 };

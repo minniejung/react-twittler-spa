@@ -4,7 +4,7 @@ import "../styles/MyPage.css";
 // ! 위 코드는 수정하지 않습니다.
 
 // TODO - import문을 이용하여 Footer 컴포넌트를 불러옵니다.
-import Footer from "../Footer";
+import Footer from "../components/Footer";
 
 const MyPage = () => {
   // TODO - filter 메소드를 이용하여 username이 Alice인 요소만 있는 배열을 filteredTweet에 할당합니다.

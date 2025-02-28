@@ -1,8 +1,8 @@
-import { getRandomNumber } from "./static/dummyData";
+import { getRandomNumber } from "../static/dummyData";
 import { FaRegImage, FaRegSmile, FaRegCalendar } from "react-icons/fa";
 import { HiOutlineGif, HiOutlineListBullet } from "react-icons/hi2";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import "./styles/form.css";
+import "../styles/form.css";
 import { useState } from "react";
 
 export const InputForm = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/About.css";
-import Footer from "../Footer";
-import { Tabs } from "../Tabs";
+import Footer from "../components/Footer";
+import { Tabs } from "../components/Tabs";
 import { FaRegCalendar } from "react-icons/fa";
 
 const tabs = [

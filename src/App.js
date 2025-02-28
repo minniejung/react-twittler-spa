@@ -3,7 +3,7 @@ import "./App.css";
 // TODO - react-router-dom을 설치 후, import 구문을 이용하여 BrowserRouter, Route, Switch 컴포넌트를 불러오세요.
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Sidebar from "./Sidebar";
+import Sidebar from "./components/Sidebar";
 // TODO - import문을 이용하여 MyPage, About 컴포넌트를 불러오세요.
 import Tweets from "./Pages/Tweets";
 import About from "./Pages/About";
