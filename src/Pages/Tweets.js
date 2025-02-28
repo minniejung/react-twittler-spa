@@ -1,26 +1,28 @@
-import React from 'react';
-import { dummyTweets } from '../static/dummyData';
-import './Tweets.css';
+import React from "react";
+import { dummyTweets } from "../static/dummyData";
+// import "../styles/Tweets.css";
 // ! 위 코드는 수정하지 않습니다.
 
 // TODO - import문을 이용하여 Footer 컴포넌트를 불러오세요.
+import Footer from "../Footer";
+import { Counter } from "../Counter";
+import { Tabs } from "../Tabs";
+import { InputForm } from "../InputForm";
+import { TweetActions } from "../TweetActions";
+import "../styles/feed.css";
+
+const tabs = [
+  { key: "tab1", label: "For you" },
+  { key: "tab2", label: "Following" },
+];
 
 const Tweets = () => {
   return (
     <div>
-      <div className="tweetForm__container">
-        <div className="tweetForm__wrapper">
-          <div className="tweetForm__input">
-            <div className="tweetForm__inputWrapper">
-              <div className="tweetForm__count" role="status">
-                <span className="tweetForm__count__text">
-                  {'total: ' + dummyTweets.length}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Tabs tabs={tabs} />
+      <InputForm />
+      <Counter />
+
       <ul className="tweets">
         {dummyTweets.map((tweet) => {
           return (
@@ -34,12 +36,14 @@ const Tweets = () => {
                   <span className="tweet__createdAt">{tweet.createdAt}</span>
                 </div>
                 <div className="tweet__message">{tweet.content}</div>
+                <TweetActions />
               </div>
             </li>
           );
         })}
       </ul>
       {/* TODO - Footer 컴포넌트를 작성합니다. */}
+      <Footer />
     </div>
   );
 };
