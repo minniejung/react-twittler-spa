@@ -1,0 +1,63 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid #2f3336;
+}
+
+.inputProfile {
+  padding: 0.2rem;
+}
+
+.inputProfile > img {
+  display: inline-block;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.inputTextArea {
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  padding-top: 18px;
+  outline: none;
+}
+
+.inputFormIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: #1d9bf0;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.inputSubmitBtn {
+  align-self: flex-end;
+  background: var(--tweeter-blue);
+  color: #fff;
+  padding: 10px 20px 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  line-height: 100%;
+  text-align: center;
+}
+
+.btnDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background-color: #7f7f7f;
+}

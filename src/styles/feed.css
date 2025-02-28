@@ -1,0 +1,90 @@
+.tweet,
+.notification {
+  display: flex;
+  list-style: none;
+  overflow-y: scroll;
+  padding: 1rem;
+  border-top: 1px solid #2f3336;
+}
+
+.tweet__profile,
+.notification__sign {
+  padding: 0.2rem;
+}
+
+.tweet__profile > img {
+  display: inline-block;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.notification__sign > .fas {
+  display: initial;
+  cursor: initial;
+}
+
+.tweet__content .notification__content {
+  flex: 1 0 0;
+}
+
+.tweet__userInfo {
+  margin-top: 0.4rem;
+}
+
+.tweet__userInfo > .tweet__username {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.tweet__userInfo > .tweet__username.tweet__username--purple {
+  background-color: var(--point-color-tint-2);
+}
+
+.tweet__userInfo > .tweet__createdAt {
+  color: var(--sub-text-color);
+  margin-left: 0.5rem;
+}
+
+.tweet__message {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.tweetCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #2f3336;
+  padding: 16px 0;
+  color: var(--tweeter-blue);
+  cursor: pointer;
+  width: 100%;
+
+  span {
+    margin: 0 5px;
+  }
+}
+
+.tweetActions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: rgb(113, 118, 123);
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action:hover {
+  color: var(--tweeter-blue);
+}
+
+.iconWithoutText {
+  display: flex;
+  gap: 0.5rem;
+}

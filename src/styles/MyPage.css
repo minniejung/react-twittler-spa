@@ -4,10 +4,10 @@
   flex: 1 0 0;
 }
 
-.myInfo__container {
+/* .myInfo__container {
   border-bottom: 1px solid var(--main-border-color);
   margin-bottom: 0.5rem;
-}
+} */
 
 .myInfo__wrapper {
   padding-left: 15px;
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   color:white;
-  background-color: var(--mypage-component-color);
+  /* background-color: var(--mypage-component-color); */
 }
 
 .myInfo__detail {
@@ -38,6 +38,6 @@
 
 .tweets__mypage{
   flex: 1 0 80vh;
-  border: 2px solid var(--mypage-component-color);
+  /* border: 2px solid var(--mypage-component-color); */
   overflow-y: scroll;
 }

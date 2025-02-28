@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(113, 118, 123); /* Default grey */
+  position: relative;
+}
+
+.tab.active {
+  font-weight: bold;
+  color: white;
+}
+
+.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 72px;
+  height: 4px;
+  background-color: var(--tweeter-blue);
+  border-radius: 20px;
+}
