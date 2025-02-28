@@ -1,4 +1,3 @@
-import { getRandomNumber } from "../static/dummyData";
 import { FaRegImage, FaRegSmile, FaRegCalendar } from "react-icons/fa";
 import { HiOutlineGif, HiOutlineListBullet } from "react-icons/hi2";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -9,15 +8,13 @@ export const InputForm = () => {
   const [inputValue, setInputValue] = useState("");
   console.log("inputValue", inputValue);
 
-  let randomProfilePic = `https://randomuser.me/api/portraits/women/${getRandomNumber(
-    1,
-    98
-  )}.jpg`;
-
   return (
     <div className="inputWrapper">
       <div className="inputProfile">
-        <img src={randomProfilePic} alt="profile-img" />
+        <img
+          src={"https://cdn2.thecatapi.com/images/416.jpg"}
+          alt="profile-img"
+        />
       </div>
 
       <div className="inputArea">
