@@ -20,7 +20,7 @@ export const InputForm = ({ tweets, setTweets }) => {
         98
       )}.jpg`,
       content: message,
-      createdAt: new Date().toISOString(),
+      createdAt: new Date().toLocaleDateString("ko-KR"),
     };
 
     setTweets([newTweet, ...tweets]);
