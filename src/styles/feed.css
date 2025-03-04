@@ -23,6 +23,10 @@
   cursor: initial;
 }
 
+.tweet__content {
+  width: 100%;
+}
+
 .tweet__content .notification__content {
   flex: 1 0 0;
 }
@@ -67,6 +71,7 @@
 
 .tweetActions {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   padding: 10px 0;
   color: rgb(113, 118, 123);

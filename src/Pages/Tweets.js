@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { dummyTweets } from "../static/dummyData";
 // import "../styles/Tweets.css";
 // ! 위 코드는 수정하지 않습니다.
@@ -17,14 +17,16 @@ const tabs = [
 ];
 
 const Tweets = () => {
+  const [tweets, setTweets] = useState(dummyTweets);
+
   return (
     <div>
       <Tabs tabs={tabs} />
-      <InputForm />
-      <Counter />
+      <InputForm tweets={tweets} setTweets={setTweets} />
+      <Counter tweets={tweets} />
 
       <ul className="tweets">
-        {dummyTweets.map((tweet) => {
+        {tweets.map((tweet) => {
           return (
             <li className="tweet" id={tweet.id} key={tweet.id}>
               <div className="tweet__profile">
