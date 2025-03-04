@@ -1,4 +1,3 @@
-import { dummyTweets } from "../static/dummyData";
 import "../styles/feed.css";
 
 export const Counter = ({ tweets }) => {
