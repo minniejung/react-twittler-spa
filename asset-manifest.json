@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-twittler-spa/static/css/main.3b3f129f.css",
+    "main.js": "/react-twittler-spa/static/js/main.ef9db173.js",
+    "index.html": "/react-twittler-spa/index.html",
+    "static/media/x-logo.svg": "/react-twittler-spa/static/media/x-logo.aa62e34ef14683cf3cd91e0da4f5852c.svg",
+    "main.3b3f129f.css.map": "/react-twittler-spa/static/css/main.3b3f129f.css.map",
+    "main.ef9db173.js.map": "/react-twittler-spa/static/js/main.ef9db173.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3f129f.css",
+    "static/js/main.ef9db173.js"
+  ]
+}
