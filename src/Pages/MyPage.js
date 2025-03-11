@@ -7,7 +7,6 @@ import "../styles/MyPage.css";
 import Footer from "../components/Footer";
 
 const MyPage = () => {
-  // TODO - filter 메소드를 이용하여 username이 Alice인 요소만 있는 배열을 filteredTweet에 할당합니다.
   const filteredTweets = dummyTweets;
 
   return (
